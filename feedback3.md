@@ -1,8 +1,8 @@
 Hello ! Voici le feedback que tu m'as demandé.
 
 
-### Boucles et affichage cardDetails.ejs
-
+## Boucles et affichage cardDetails.ejs
+---
 
 Faire une boucle dans le code, c'est pour itérer plusieurs fois jusqu'à ce qu'une condition soit atteinte ou un but rempli.
 Prenons par exemple un tableau javascript constitué de chiffres de 1 à 10
@@ -27,8 +27,8 @@ Maintenant qu'on a notre tableau, sur la page d'accueil on affiche tous les rés
 En récupérant la carte qu'on veut afficher directement avec une requête SQL, tu obtiens une constante qui n'est pas itérable. Tu n'as qu'un seul élément dedans donc pour afficher les détails de la carte voulue, tu n'as pas besoin de faire de boucle dessus.
 
 
-### Requête SQL
-
+## Requête SQL
+---
 
 Fais attention à la syntaxe dans tes requêtes SQL. Les requêtes sont sensibles à la casse ( il y a une difference entre majuscules et minuscules par exemple ), et à la ponctuation.
 
@@ -40,8 +40,8 @@ Dans le cas de ta requête getCard, il n'y a qu'une seule instruction
 Je te laisse revoir les requêtes SQL dans tes cours
 
 
-### Passage de variables avec le router
-
+## Passage de variables avec le router
+---
 
 Lorsque l'on passe des variables entre différentes pages avec le router, il est important de les nommer correctement.
 Imaginons 2 pages d'un site. La page d'accueil avec une liste d'ingrédients, et la page de détails d'un ingrédient.
@@ -97,8 +97,8 @@ console.log(detailsIngredient) -> affiche un seul ingrédient
 console.log(typeof detailsIngredient) -> affiche le type de ma constante detailsIngredient
 
 
-### Fonction next()
-
+## Fonction next()
+---
 
 Attention à son utilisation. C'est pratique, car le code continu, mais c'est dangereux. En effet, s'il y a une erreur à cet endroit-là, tu ne la verras pas car dans tous les cas, tu passes à la suite. Il vaut mieux être prudent et signaler l'erreur, par une page not found au moins
 
@@ -106,15 +106,15 @@ Attention à son utilisation. C'est pratique, car le code continu, mais c'est da
 Cette fonction-là est à utiliser vraiment avec précautions. Si tu ne veux pas afficher d'erreur sur la page ou mettre une 404, met au moins un console.log() pour dire qu'il y a une erreur et savoir que c'est à cet endroit-là.
 
 
-### Recherche par élément
-
+## Recherche par élément
+---
 
 Pense à bien importer tes modules au début de ton fichier. Dans le cas du parcours, les modules correspondent à d'autres fichiers js. Mais si tu ne l'importe pas, tu ne peux pas utiliser l'objet et les méthodes qui se trouvent dedans.
 La console peut t'aider dans ces cas là, la plupart du temps cela te désigne avec précision l'erreur qu'il y a.
 
 
-### Pour finir
-
+## Pour finir
+---
 
 N'hésite pas à mettre des console.log() partout s'il le faut pour contrôler ce que tu obtiens. C'est vraiment important et ça permet de savoir ce qu'il se passe dans ton code. Tu peux en abuser ce n'est pas un problème
 

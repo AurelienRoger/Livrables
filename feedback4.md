@@ -2,8 +2,8 @@
 
 Hello ! Voici le feedback que tu m'as demandé.
 
-### Routes paramétrées
-
+## Routes paramétrées
+---
 
 Lorsque l'on passe des variables entre différentes pages avec le router, il est important de les nommer correctement.
 Imaginons 2 pages d'un site. La page d'accueil avec une liste d'ingrédients, et la page de détails d'un ingrédient.
@@ -55,8 +55,8 @@ console.log(detailsIngredient) -> affiche un seul ingrédient
 console.log(typeof detailsIngredient) -> affiche le type de ma constante detailsIngredient
 
 
-### Requêtes SQL et paramètres de fonctions
-
+## Requêtes SQL et paramètres de fonctions
+---
 Quand on met un paramètre à une fonction, il ne faut pas oublier de l'utiliser. Si tu demandes un paramètre id il faut que ensuite, tu utilise le paramètre id.
 Si on prend l'exemple d'une fonction d'addition
 ```js
@@ -130,8 +130,8 @@ La vue : J'affiche les détails de la tâche cliquée
 Bien sur c'est un peu plus complexe que ça, mais ça reste le même principe de fonctionnement:
 Le contrôleur interagit avec le modèle (dans ce cas, la base de données) pour obtenir les données, puis les envoie à la vue pour l'affichage.
 
-### Pour finir
-
+## Pour finir
+---
 Pense à bien revoir le modèle MVC et fait toi une marche à suivre quitte à toujours coder dans le même ordre. Si tu prends ces habitudes tu arriveras à mieux te retrouver dans ce que tu as à faire.
 
 Revois les fonctions, c'est important et tu en auras dans tous les codes. Pense à l'exemple que je t'ai mis avec les paramètres c'est un exemple clair et ça te montre comment utiliser les paramètres
